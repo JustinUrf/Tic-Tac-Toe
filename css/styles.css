@@ -10,7 +10,7 @@
 }
 
 body {
-  color: var (--orange);
+  color: var(--orange);
   font-family: 'Finger Paint', cursive;
 }
 h1 {
@@ -40,7 +40,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--oarange);
+  color: var(--orange);
   font-size: 120px; 
   border-right: 2px solid;
   border-bottom: 2px solid;
@@ -65,5 +65,4 @@ button {
 button:hover {
   cursor: pointer;
   transform: translateY(-2px);
-  
 }
