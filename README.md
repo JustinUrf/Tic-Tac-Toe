@@ -1,37 +1,33 @@
-# {Application Name}
+# Tic Tac Toe
 
-#### By {List of contributors}
+#### By Justin Lee, Owen Brown
 
-#### {Brief description of application}
+#### Tic Tac Toe game where 2 local players can play Tic Tac Toe
 
 ## Technologies Used
 
-* List all
-* the major technologies
-* you used in your project
-* here
+* HTML
+* CSS
+* Javascript
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+Tic Tac Toe project baseline. Simple HTML Tic Tac Toe Website that supports 2 player functionality.
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* Push repository to your personal computer through gitbash or download through github
+* Open html file with any browser and play tic tac toe!
+* Restart Board ot clear board.
+* To look at the Javascript, CSS, or HTML logic, use any open source code editor such as VSCode.
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
 
 ## Known Bugs
 
-* Any known issues
-* should go here
+* N/a
 
 ## License
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+MIT
 
-Copyright (c) date author name(s)
+Copyright (c) Justin Lee, Owen Brown.

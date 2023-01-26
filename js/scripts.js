@@ -1,9 +1,7 @@
-let playerText = document.getElementById("player-text");
 let restartButton = document.getElementById("restart-button");
 let boxes = Array.from(document.getElementsByClassName("box"));
 
 let winnerIndiciator = getComputedStyle(document.body).getPropertyValue('--winning-blocks')
-
 
 const O_TEXT = "O";
 const X_TEXT = "X";
@@ -22,7 +20,7 @@ function boxClicked(e) {
     e.target.innerText = currentPlayer;
 
     if(playerHasWon() !== false) {
-      playerText = `${currentPlayer} has won!`
+      document.querySelector("h1#player-text").innerText = currentPlayer + " Has Won!";
       let winning_blocks = playerHasWon();
 
       winning_blocks.map( box => boxes[box].style.backgroundColor=winnerIndiciator)
@@ -45,6 +43,7 @@ const winningCombos = [
 ]
 
 function playerHasWon() {
+
   for (const condition of winningCombos) {
     let [a, b, c] = condition;
 
@@ -65,7 +64,7 @@ function restart() {
     box.style.backgroundColor=''
   })
 
-  playerText = "Tic Tac Toe";
+  document.querySelector("h1#player-text").innerText = "Tic Tac Toe"
   
   currentPlayer = X_TEXT;
 }

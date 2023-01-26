@@ -45,3 +45,16 @@ feedback when player wins
 feedback to ask users "do you wnat to play again"
 
 feedback for when game draws
+
+[0][1][2]
+[3][4][5]
+[6][7][8]
+
+0,3,6
+012
+048
+147
+258
+678
+642
+258
